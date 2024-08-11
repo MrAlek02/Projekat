@@ -81,7 +81,8 @@
     width: 60%;
     height: 50%;
 }
-img{
+
+.slika1 img{
     width: 100%;
     height: 100%;
 }
@@ -122,3 +123,23 @@ h2 span{
 .tabele h3 {
     font-size: 30px;
 }
+
+.osnivac {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 20%;
+    margin-right: 20%;
+ }
+
+ .osnivac h3 {
+    font-size: 40px;
+    color: chartreuse;
+    margin-top: 5%;
+    margin-bottom: 10px;
+ }
+
+ .osnivac h4 {
+    font-size: 20px;
+    color: white;
+    margin-top: 0;
+ }
