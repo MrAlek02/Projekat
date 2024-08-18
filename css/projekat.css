@@ -48,7 +48,7 @@
 
 .naslov h1{
     color: white;
-    text-align: center;
+    text-align: left;
     font-size: 60px;
     margin-left: 10%;
     margin-right: 10%;
@@ -62,9 +62,10 @@
 
 .paragrafidugme{
     color: white;
-    margin-left: 70%;
+    margin-left: 60%;
     text-align: left;
-    margin-right: 5%;
+    margin-right: 7%;
+    margin-bottom: 10%;
 }
 
 #dugme{
@@ -80,11 +81,12 @@
     margin-left: 20%;
     width: 60%;
     height: 50%;
+    margin-bottom: 10%;
 }
 
 .slika1 img{
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 h2{
@@ -103,6 +105,7 @@ h2 span{
     font-size: 20px;
     margin-left: 20%;
     margin-right: 40%;
+    margin-bottom: 10%;
 }
 
 .tabele {
@@ -110,6 +113,7 @@ h2 span{
     grid-template-columns: auto auto auto;
     margin-left: 20%;
     margin-right: 20%;
+    margin-bottom: 10%;
   }
 
 .tabele>div {
@@ -129,17 +133,185 @@ h2 span{
     grid-template-columns: auto auto;
     margin-left: 20%;
     margin-right: 20%;
- }
+    margin-bottom: 10%;
+}
 
- .osnivac h3 {
+.osnivac h3 {
     font-size: 40px;
     color: chartreuse;
     margin-top: 5%;
     margin-bottom: 10px;
- }
+}
 
- .osnivac h4 {
+.osnivac h4 {
     font-size: 20px;
     color: white;
     margin-top: 0;
- }
+}
+
+.naslovt2{
+    color: white;
+    font-size: 30px;
+    margin-left: 20%;
+    text-transform: uppercase;
+}
+
+.tabele2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+}
+
+.tabele2>div {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+}
+
+.tabele2 h3{
+    font-size: 20px;
+    color: chartreuse;
+}
+
+.tabele2 p{
+    color: white
+}
+
+.t2kraj {
+    color: white;
+    font-size: 50px;
+    margin-left: 20%;
+    margin-bottom: 10%;
+}
+
+.video{
+    color: white;
+    font-size: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-transform: uppercase;
+    margin-bottom: 10%;
+}
+
+.newsnaslov{
+    color: white;
+    font-size: 30px;
+    margin-left: 20%;
+    text-transform: uppercase;
+}
+
+.news {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.news img{
+    height: 200px;
+    width: 500px;
+}
+
+.news h4{
+    color: white;
+    font-size: 30px;
+}
+
+.news p{
+    color: white;
+    font-size: 15px;
+}
+
+.news a{
+    color: chartreuse;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.news a:hover {
+    color: white;
+}
+
+.dugme3 {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 50%;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo a{
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+.footer-logo a:hover{
+    color: chartreuse;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-nav li {
+    margin-bottom: 10px;
+}
+
+.footer-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.footer-nav a:hover {
+    color: chartreuse;
+}
+
+.footer-social {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.footer-social a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-social a:hover {
+    color: chartreuse;
+}
+
+.footer-social a i {
+    margin-right: 5px;
+}
+
+.footer-potpis {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: white;
+}
