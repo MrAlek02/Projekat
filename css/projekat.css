@@ -384,6 +384,7 @@ h2 span{
     }
     .naslovt2 h1{
         text-align: center;
+        font-size: 40px;
     }
     .naslov {
         margin-top: 10%;
@@ -411,7 +412,7 @@ h2 span{
         margin: 0;
         padding: 0;
         margin-bottom: 10%;
-        font-size: 30px;
+        font-size: 40px;
     }
     .footer-container {
         margin: 0;
