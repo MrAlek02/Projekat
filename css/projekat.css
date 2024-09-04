@@ -314,7 +314,7 @@ h2 span{
     color: white;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
     .video {
         margin: 0;
         padding: 0;
