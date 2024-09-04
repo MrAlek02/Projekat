@@ -325,6 +325,15 @@ h2 span{
         padding: 0;
         margin-bottom: 10%;
     }
+    .tabele2 {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 10%;
+    }
+    .tabele2 div {
+        margin: auto;
+        text-align: center;
+    }
     .osnivac{
         margin: 0;
         padding: 0;
