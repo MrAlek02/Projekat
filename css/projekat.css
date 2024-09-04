@@ -323,6 +323,7 @@ h2 span{
     .video h1{
         margin: 0;
         padding: 0;
+        width: 100%;
     }
     .tabele {
         margin: 0;
@@ -374,6 +375,7 @@ h2 span{
         margin: 0;
         padding: 0;
         margin-bottom: 10%;
+        width: 100%;
     }
     .naslov {
         margin-top: 10%;
