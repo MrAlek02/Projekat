@@ -379,10 +379,12 @@ h2 span{
     }
     .naslov {
         margin-top: 10%;
+        width: 100%;
     }
     .naslov h1{
         margin: 0;
         padding: 0;
+        width: 100%;
         margin-bottom: 10%;
     }
     .newsnaslov {
