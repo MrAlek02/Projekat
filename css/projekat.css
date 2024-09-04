@@ -316,6 +316,10 @@ h2 span{
 }
 
 @media (max-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
     .video {
         margin: 0;
         padding: 0;
@@ -379,6 +383,7 @@ h2 span{
     }
     .naslov {
         margin-top: 10%;
+        margin-bottom: 10%;
     }
     .naslov h1 {
         margin: 0;
@@ -405,5 +410,8 @@ h2 span{
     }
     .dugme3 {
         text-align: center;
+    }
+    .news div {
+        margin-bottom: 5%;
     }
 }
