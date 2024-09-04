@@ -313,3 +313,69 @@ h2 span{
     font-size: 14px;
     color: white;
 }
+
+@media (max-width: 700px) {
+    .video {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 10%;
+    }
+    .tabele {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 10%;
+    }
+    .osnivac{
+        margin: 0;
+        padding: 0;
+        margin-bottom: 10%;
+    }
+    .slika1 {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 10%;
+    }
+    .paragrafidugme {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 10%;
+    }
+    #paragrafh2 {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 10%;
+    }
+    .news {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 10%;
+    }
+    .naslovt2 {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 10%;
+    }
+    .naslov {
+        margin-top: 10%;
+    }
+    .naslov h1{
+        margin: 0;
+        padding: 0;
+        margin-bottom: 10%;
+    }
+    .newsnaslov {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 10%;
+    }
+    .t2kraj {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 10%;
+    }
+    h2 {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 10%;
+    }
+}
