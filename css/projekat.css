@@ -40,6 +40,7 @@
 .side a{
     color: white;
     display: block;
+    text-decoration: none;
 }
 
 .side a:hover {
@@ -315,10 +316,6 @@ h2 span{
 }
 
 @media (max-width: 600px) {
-    * {
-        margin: 0;
-        padding: 0;
-    }
     .video {
         margin: 0;
         padding: 0;
@@ -379,17 +376,13 @@ h2 span{
         margin: 0;
         padding: 0;
         margin-bottom: 10%;
-        width: 100%;
     }
     .naslov {
         margin-top: 10%;
-        width: 100%;
     }
-    .naslov h1{
+    .naslov h1 {
         margin: 0;
         padding: 0;
-        width: 100%;
-        margin-bottom: 10%;
     }
     .newsnaslov {
         margin: 0;
