@@ -320,6 +320,10 @@ h2 span{
         padding: 0;
         margin-bottom: 10%;
     }
+    .video h1{
+        margin: 0;
+        padding: 0;
+    }
     .tabele {
         margin: 0;
         padding: 0;
@@ -338,6 +342,10 @@ h2 span{
         margin: 0;
         padding: 0;
         margin-bottom: 10%;
+    }
+    .osnivac div {
+        margin: auto;
+        text-align: center;
     }
     .slika1 {
         margin: 0;
@@ -358,6 +366,9 @@ h2 span{
         margin: 0;
         padding: 0;
         margin-bottom: 10%;
+    }
+    .news img {
+        width: 100%;
     }
     .naslovt2 {
         margin: 0;
@@ -386,5 +397,12 @@ h2 span{
         margin: 0;
         padding: 0;
         margin-bottom: 10%;
+    }
+    .footer-container {
+        margin: 0;
+        padding: 0;
+    }
+    .dugme3 {
+        text-align: center;
     }
 }
