@@ -16,8 +16,6 @@
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    background: transparent;
-    backdrop-filter: blur(10px);
 }
 
 .header::before {
@@ -27,6 +25,8 @@
     left: 0;
     width: 100%;
     height: 100%;
+    background: transparent;
+    backdrop-filter: blur(10px);
     z-index: -1;
 }
 
@@ -50,17 +50,10 @@
     color: white;
     text-decoration: none;
     font-weight: 700;
-    background: transparent;
-    backdrop-filter: blur(10px);
 }
 
 .logo:hover {
     color: chartreuse;
-}
-
-.navbar {
-    background: transparent;
-    backdrop-filter: blur(10px);
 }
 
 .navbar a {
@@ -88,11 +81,6 @@
     color: white;
     cursor: pointer;
     display: none;
-}
-
-.icons label {
-    background: transparent;
-    backdrop-filter: blur(10px);
 }
 
 .icons:hover {
@@ -128,7 +116,8 @@
         left: 0;
         width: 100%;
         height: 0;
-        background: #2b0075;
+        background: transparent;
+        backdrop-filter: blur(10px);
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
         overflow: hidden;
         transition: .3s ease;
@@ -153,8 +142,8 @@
         opacity: 1;
         transition-delay: calc(.15s * var(--i));
     }
-
 }
+
 .side{
     position: fixed;
     font-size: 50px;
