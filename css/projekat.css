@@ -12,6 +12,16 @@
   color: chartreuse;
 }
 
+.navbar .navbar-nav .nav-link {
+  color: white;
+  font-size: 1.1em;
+  padding: 0.5em;
+}
+
+.navbar .navbar-nav .nav-item:not(:last-child) .nav-link {
+  border-right: 1px solid white;
+}
+
 .side {
   position: fixed;
   font-size: 50px;
