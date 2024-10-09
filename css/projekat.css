@@ -3,6 +3,11 @@
   font-family: "Montserrat";
 }
 
+.bg-blur {
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+}
+
 #navbarNav a:hover {
   color: chartreuse;
 }
