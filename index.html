@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="css/projekat.css" />
     <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/animation.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -19,6 +20,7 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <script defer src="js/animation.js"></script>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-blur">
@@ -43,23 +45,23 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Documents</a>
+              <a class="nav-link" href="#">Documentation</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <div class="side">
+    <div class="side sticky-top" style="top: 200px">
       <a href="" class="github"><i class="fa fa-github"></i></a>
       <a href="" class="instagram"><i class="fa fa-instagram"></i></a>
       <a href="" class="facebook"><i class="fa fa-facebook"></i></a>
       <a href="" class="youtube"><i class="fa fa-youtube"></i></a>
     </div>
-    <div class="container">
+    <div class="container hidden razmak">
       <div class="row">
         <div class="col-md-12">
           <div class="naslov">
-            <h1>
+            <h1 class="display-2">
               Lorem ipsum dolor sit amet, consectetur
               <span>adipiscing elit.</span>
             </h1>
@@ -67,7 +69,7 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container hidden">
       <div class="row">
         <div class="col-md-6 offset-md-6">
           <div class="paragraf">
@@ -81,12 +83,12 @@
       <div class="row">
         <div class="col-md-6 offset-md-6">
           <div class="dugme">
-            <button id="dugme">Join us</button>
+            <button id="dugme">Join</button>
           </div>
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container hidden razmak2">
       <div class="row">
         <div class="col-md-12">
           <div class="slika1">
@@ -95,17 +97,17 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container hidden razmak2 razmak3">
       <div class="row">
         <div class="col-md-6">
-          <div class="naslov2">
-            <h1><span>Ipsum</span> doler sit</h1>
+          <div class="naslov">
+            <h1 class="display-3"><span>Ipsum</span> doler sit</h1>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-md-6">
-          <div class="paragraf2">
+          <div class="paragraf">
             <p>
               Vivamus ultrices molestie justo, quis semper sem maximus ac.
               Phasellus faucibus tortor non nisl varius, ut mollis purus
@@ -124,17 +126,17 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container a1">
       <div class="row">
         <div class="col-md-4">
-          <div class="naslov3">
-            <h1><span>Why</span> us?</h1>
+          <div class="naslov a1 hidden">
+            <h1 class="display-3"><span>Why</span> us?</h1>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-md-4">
-          <div class="r1">
+          <div class="r1 a1 hidden">
             <h3>Morbi quis</h3>
             <p>
               Morbi quis nisl sit amet mauris sodales faucibus. Aenean aliquam
@@ -144,7 +146,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="r2">
+          <div class="r2 a1 hidden">
             <h3>Nisl sit</h3>
             <p>
               Proin suscipit interdum tempor. Nulla facilisi. Etiam ut tempus
@@ -154,7 +156,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="r3">
+          <div class="r3 a1 hidden">
             <h3>Amet mauris</h3>
             <p>
               Duis euismod eu justo quis varius. Fusce a iaculis est, vel
@@ -166,7 +168,7 @@
       </div>
       <div class="row">
         <div class="col-md-4">
-          <div class="r4">
+          <div class="r4 a1 hidden">
             <h3>Aenean aliquam</h3>
             <p>
               Mauris metus ligula, sagittis vel varius quis, euismod at leo.
@@ -175,7 +177,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="r5">
+          <div class="r5 a1 hidden">
             <h3>Phasellus quis</h3>
             <p>
               Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
@@ -184,7 +186,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="r6">
+          <div class="r6 a1 hidden">
             <h3>Duis pellentesque</h3>
             <p>
               Morbi ut sem mi. Nulla dignissim purus quis enim molestie, at
@@ -194,9 +196,11 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container a2 razmak2">
       <div class="row">
-        <div class="col-md-6 d-flex justify-content-center align-items-center">
+        <div
+          class="col-md-6 d-flex justify-content-center align-items-center a2 hidden"
+        >
           <div
             style="
               width: 400px;
@@ -207,7 +211,7 @@
           ></div>
         </div>
         <div class="col-md-6">
-          <div class="osnivact">
+          <div class="osnivact a2 hidden">
             <h2>Name Lastname PhD</h2>
             <h3>Our Founder</h3>
             <p>
@@ -236,17 +240,17 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container a3 razmak2 razmak3">
       <div class="row">
         <div class="col-md-4">
-          <div class="naslov4">
-            <h1>Contributors</h1>
+          <div class="naslov a3 hidden">
+            <h1 class="display-3">Contributors</h1>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-md-4 d-flex justify-content-center align-items-center">
-          <div class="s1">
+          <div class="s1 a3 hidden">
             <div
               style="
                 width: 200px;
@@ -261,7 +265,7 @@
           </div>
         </div>
         <div class="col-md-4 d-flex justify-content-center align-items-center">
-          <div class="s2">
+          <div class="s2 a3 hidden">
             <div
               style="
                 width: 200px;
@@ -276,7 +280,7 @@
           </div>
         </div>
         <div class="col-md-4 d-flex justify-content-center align-items-center">
-          <div class="s3">
+          <div class="s3 a3 hidden">
             <div
               style="
                 width: 200px;
@@ -293,7 +297,7 @@
       </div>
       <div class="row">
         <div class="col-md-4 d-flex justify-content-center align-items-center">
-          <div class="s4">
+          <div class="s4 a3 hidden">
             <div
               style="
                 width: 200px;
@@ -308,7 +312,7 @@
           </div>
         </div>
         <div class="col-md-4 d-flex justify-content-center align-items-center">
-          <div class="s5">
+          <div class="s5 a3 hidden">
             <div
               style="
                 width: 200px;
@@ -323,7 +327,7 @@
           </div>
         </div>
         <div class="col-md-4 d-flex justify-content-center align-items-center">
-          <div class="s6">
+          <div class="s6 a3 hidden">
             <div
               style="
                 width: 200px;
@@ -340,17 +344,17 @@
       </div>
       <div class="row">
         <div class="col-md-12">
-          <div class="t2kraj">
-            <h1>...and 20+ people designing <br />the future</h1>
+          <div class="paragraf a3 hidden">
+            <h2>...and 20+ people designing <br />the future</h2>
           </div>
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container hidden razmak3">
       <div class="row">
         <div class="col-md-12">
           <div class="naslov">
-            <h1>Introduction to <br />our workflow</h1>
+            <h1 class="display-3">Introduction to <br />our workflow</h1>
           </div>
         </div>
       </div>
@@ -371,17 +375,17 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container a4">
       <div class="row">
         <div class="col-md-12">
-          <div class="naslov">
-            <h1>Latest news</h1>
+          <div class="naslov a4 hidden">
+            <h1 class="display-3">Latest news</h1>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-md-6">
-          <div class="n1">
+          <div class="n1 a4 hidden">
             <img src="slike/slika8.jpeg" class="img-fluid" />
             <p>18.08.2024.</p>
             <h4>Finibus justo vel quam</h4>
@@ -393,7 +397,7 @@
           </div>
         </div>
         <div class="col-md-6">
-          <div class="n2">
+          <div class="n2 a4 hidden">
             <img src="slike/slika8.jpeg" class="img-fluid" />
             <p>18.08.2024.</p>
             <h4>Finibus justo vel quam</h4>
@@ -407,14 +411,14 @@
       </div>
       <div class="row">
         <div class="col-md-12">
-          <div class="ndugme">
+          <div class="ndugme a4 hidden">
             <button id="dugme">View all news</button>
           </div>
         </div>
       </div>
     </div>
     <footer>
-      <div class="footer-container">
+      <div class="footer-container hidden">
         <div class="footer-logo">
           <a href="">logo</a>
         </div>
