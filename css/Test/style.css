@@ -5,7 +5,8 @@
 
 .bg-blur {
   background-color: transparent;
-  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
 }
 
 #navbarNav a:hover {
@@ -84,7 +85,6 @@
     border-right: none;
   }
 }
-
 .side {
   float: right;
   font-size: 30px;
@@ -131,7 +131,8 @@
   color: black;
   padding: 15px 50px;
   text-align: center;
-  clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0 50%);
+  -webkit-clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0 50%);
+          clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0 50%);
   background-color: chartreuse;
 }
 
@@ -148,6 +149,7 @@
 .osnivact {
   margin-top: 15%;
 }
+
 .osnivact h2 {
   color: chartreuse;
 }
@@ -282,4 +284,4 @@ p {
     margin: 10px;
     padding: 0;
   }
-}
+}/*# sourceMappingURL=style.css.map */
