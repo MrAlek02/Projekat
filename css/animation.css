@@ -94,3 +94,39 @@
 .a4:nth-child(5) {
   transition-delay: 800ms;
 }
+
+.a5:nth-child(2) {
+  transition-delay: 200ms;
+}
+
+.a5:nth-child(3) {
+  transition-delay: 400ms;
+}
+
+.a5:nth-child(4) {
+  transition-delay: 600ms;
+}
+
+.a5:nth-child(5) {
+  transition-delay: 800ms;
+}
+
+.a5:nth-child(6) {
+  transition-delay: 1000ms;
+}
+
+.a5:nth-child(7) {
+  transition-delay: 1200ms;
+}
+
+.a5:nth-child(8) {
+  transition-delay: 1400ms;
+}
+
+.a6:nth-child(2) {
+  transition-delay: 200ms;
+}
+
+.a6:nth-child(3) {
+  transition-delay: 400ms;
+}
