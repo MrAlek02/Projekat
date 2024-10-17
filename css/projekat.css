@@ -226,7 +226,9 @@ p {
 
 .footer-social ul {
   display: table-cell;
-  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
 
 .footer-social li {
