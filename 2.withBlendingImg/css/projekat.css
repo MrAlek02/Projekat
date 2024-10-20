@@ -150,7 +150,7 @@
 }
 
 .osnivact {
-  margin-top: 7%;
+  margin-top: 15%;
 }
 .osnivact h2 {
   color: chartreuse;
@@ -168,36 +168,6 @@ p {
 .s5,
 .s6 h3 {
   color: chartreuse;
-}
-
-.s1slika img {
-  height: 200px;
-  width: 200px;
-}
-
-.s2slika img {
-  height: 200px;
-  width: 200px;
-}
-
-.s3slika img {
-  height: 200px;
-  width: 200px;
-}
-
-.s4slika img {
-  height: 200px;
-  width: 200px;
-}
-
-.s5slika img {
-  height: 200px;
-  width: 200px;
-}
-
-.s6slika img {
-  height: 200px;
-  width: 200px;
 }
 
 .n1,

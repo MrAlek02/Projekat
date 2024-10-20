@@ -1,0 +1,132 @@
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+.a1:nth-child(2) {
+  transition-delay: 200ms;
+}
+
+.a1:nth-child(3) {
+  transition-delay: 400ms;
+}
+
+.a1:nth-child(4) {
+  transition-delay: 600ms;
+}
+
+.a1:nth-child(5) {
+  transition-delay: 800ms;
+}
+
+.a1:nth-child(6) {
+  transition-delay: 1000ms;
+}
+
+.a1:nth-child(7) {
+  transition-delay: 1200ms;
+}
+
+.a1:nth-child(8) {
+  transition-delay: 1400ms;
+}
+
+.a2:nth-child(2) {
+  transition-delay: 200ms;
+}
+
+.a2:nth-child(3) {
+  transition-delay: 400ms;
+}
+
+.a3:nth-child(2) {
+  transition-delay: 200ms;
+}
+
+.a3:nth-child(3) {
+  transition-delay: 400ms;
+}
+
+.a3:nth-child(4) {
+  transition-delay: 600ms;
+}
+
+.a3:nth-child(5) {
+  transition-delay: 800ms;
+}
+
+.a3:nth-child(6) {
+  transition-delay: 1000ms;
+}
+
+.a3:nth-child(7) {
+  transition-delay: 1200ms;
+}
+
+.a3:nth-child(8) {
+  transition-delay: 1400ms;
+}
+
+.a3:nth-child(9) {
+  transition-delay: 1600ms;
+}
+
+.a4:nth-child(2) {
+  transition-delay: 200ms;
+}
+
+.a4:nth-child(3) {
+  transition-delay: 400ms;
+}
+
+.a4:nth-child(4) {
+  transition-delay: 600ms;
+}
+
+.a4:nth-child(5) {
+  transition-delay: 800ms;
+}
+
+.a5:nth-child(2) {
+  transition-delay: 200ms;
+}
+
+.a5:nth-child(3) {
+  transition-delay: 400ms;
+}
+
+.a5:nth-child(4) {
+  transition-delay: 600ms;
+}
+
+.a5:nth-child(5) {
+  transition-delay: 800ms;
+}
+
+.a5:nth-child(6) {
+  transition-delay: 1000ms;
+}
+
+.a5:nth-child(7) {
+  transition-delay: 1200ms;
+}
+
+.a5:nth-child(8) {
+  transition-delay: 1400ms;
+}
+
+.a6:nth-child(2) {
+  transition-delay: 200ms;
+}
+
+.a6:nth-child(3) {
+  transition-delay: 400ms;
+}

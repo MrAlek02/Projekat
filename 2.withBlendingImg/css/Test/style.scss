@@ -12,10 +12,6 @@
   color: chartreuse;
 }
 
-.navbar-brand:hover {
-  color: chartreuse !important;
-}
-
 .navbar-toggler {
   border: 0 !important;
 }
@@ -92,7 +88,7 @@
 .side {
   float: right;
   font-size: 30px;
-  right: 1%;
+  right: 2%;
 }
 
 .side a {
@@ -150,7 +146,7 @@
 }
 
 .osnivact {
-  margin-top: 7%;
+  margin-top: 15%;
 }
 .osnivact h2 {
   color: chartreuse;
@@ -168,36 +164,6 @@ p {
 .s5,
 .s6 h3 {
   color: chartreuse;
-}
-
-.s1slika img {
-  height: 200px;
-  width: 200px;
-}
-
-.s2slika img {
-  height: 200px;
-  width: 200px;
-}
-
-.s3slika img {
-  height: 200px;
-  width: 200px;
-}
-
-.s4slika img {
-  height: 200px;
-  width: 200px;
-}
-
-.s5slika img {
-  height: 200px;
-  width: 200px;
-}
-
-.s6slika img {
-  height: 200px;
-  width: 200px;
 }
 
 .n1,
@@ -235,48 +201,85 @@ p {
   color: white;
 }
 
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20%;
+  margin-right: 50%;
+  margin-top: 5%;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+}
+
 .footer-logo a {
   color: white;
   text-decoration: none;
+  font-size: 50px;
 }
 
 .footer-logo a:hover {
   color: chartreuse;
 }
 
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-nav li {
+  margin-bottom: 10px;
+}
+
 .footer-nav a {
   color: white;
   text-decoration: none;
-  display: block;
+  font-size: 18px;
 }
 
 .footer-nav a:hover {
   color: chartreuse;
 }
 
-.footer-social ul {
-  display: table-cell;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-}
-
-.footer-social li {
-  display: table-row;
-  text-align: center;
-  padding: 10px;
+.footer-social {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
 }
 
 .footer-social a {
   color: #ffffff;
   text-decoration: none;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
 }
 
 .footer-social a:hover {
   color: chartreuse;
 }
 
+.footer-social a i {
+  margin-right: 5px;
+}
+
 .footer-potpis {
   text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
   color: white;
+  margin-bottom: 1%;
+}
+
+@media (max-width: 1100px) {
+  .footer-container {
+    margin: 10px;
+    padding: 0;
+  }
 }
