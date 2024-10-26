@@ -1,5 +1,21 @@
 * {
   --bs-body-bg: #2b0075;
+}
+
+@font-face {
+  font-family: "Aspergit";
+  src: url(Aspergit\ Bold.otf);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Aspergit";
+}
+
+p {
   font-family: "Montserrat";
 }
 
